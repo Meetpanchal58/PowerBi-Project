@@ -32,7 +32,7 @@ Formulae = CALENDAR(MIN(Data[Accident Date]),MAX(Data[Accident Date]))
 
 - with columns Year and Month
 - Formulae Year = Year('Calendar'[Date])
-- Formulae Month = Month = Format('Calendar'[Date],"mmm")
+- Formulae Month = Format('Calendar'[Date],"mmm")
 
 * With this Date Column from Calender and accident_date from data we will create one to many relationship and then using Date column further so we dont come across errors while playing with dates in further visualizations
 
